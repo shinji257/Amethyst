@@ -1,0 +1,246 @@
+{
+  "name": "SCUM",
+  "game_id": "SCUM",
+  "exe_name": "SCUM/Binaries/Win64/SCUM.exe",
+  "exe_name_alts": [
+    "SCUM_Launcher.exe"
+  ],
+  "deploy_type": "ue5",
+  "mod_data_path": "SCUM",
+  "steam_id": "513710",
+  "nexus_game_domain": "scum",
+  "additional_nexus_domains": [],
+  "thunderstore_community": "",
+  "hexium_community": "",
+  "image_url": "https://cdn2.steamgriddb.com/icon/8c8ee26d59b77a94dc6747a41e7c3af0/32/256x256.png",
+  "auto_install_deps": [
+    "vcredist"
+  ],
+  "mod_folder_strip_prefixes": [
+    "SCUM",
+    "Content",
+    "Paks",
+    "~mods",
+    "Binaries",
+    "Win64"
+  ],
+  "conflict_ignore_filenames": [
+    "LICENSE",
+    "*.md"
+  ],
+  "excluded_loose_filenames": [],
+  "conflict_detection_ignore_filenames": [],
+  "conflict_detection_ignore_foldernames": [],
+  "conflict_ignore_foldernames": [],
+  "mod_folder_strip_prefixes_post": [],
+  "mod_install_prefix": "",
+  "mod_required_top_level_folders": [],
+  "mod_auto_strip_until_required": false,
+  "mod_required_file_types": [],
+  "mod_install_as_is_if_no_match": false,
+  "restore_before_deploy": true,
+  "normalize_folder_case": true,
+  "filemap_casing": "upper",
+  "wine_dll_overrides": {
+    "dwmpapi": "native,builtin"
+  },
+  "custom_routing_rules": [
+    {
+      "dest": "Content/Splash",
+      "extensions": [],
+      "folders": [],
+      "filenames": [
+        "Splash.bmp"
+      ],
+      "loose_only": false,
+      "companion_extensions": [],
+      "flatten": true,
+      "include_siblings": false,
+      "to_prefix": false,
+      "mirror_dests": [],
+      "exclude_extensions": [],
+      "flatten_contents": false,
+      "rule_id": "legacy:ad2c5f6fc0fa6935453a"
+    },
+    {
+      "dest": "Content/Movies",
+      "extensions": [
+        ".mp4"
+      ],
+      "folders": [],
+      "filenames": [],
+      "loose_only": false,
+      "companion_extensions": [],
+      "flatten": false,
+      "include_siblings": true,
+      "to_prefix": false,
+      "mirror_dests": [],
+      "exclude_extensions": [],
+      "flatten_contents": false,
+      "rule_id": "legacy:ff84446acaa73ba35201"
+    },
+    {
+      "dest": "Mods",
+      "extensions": [],
+      "folders": [
+        "VTSpectator"
+      ],
+      "filenames": [],
+      "loose_only": false,
+      "companion_extensions": [],
+      "flatten": true,
+      "include_siblings": false,
+      "to_prefix": false,
+      "mirror_dests": [],
+      "exclude_extensions": [],
+      "flatten_contents": false,
+      "rule_id": "legacy:53ac5d6768bed660965a"
+    },
+    {
+      "dest": "Content/Paks",
+      "extensions": [],
+      "folders": [
+        "LogicMods"
+      ],
+      "filenames": [],
+      "loose_only": false,
+      "companion_extensions": [],
+      "flatten": true,
+      "include_siblings": false,
+      "to_prefix": false,
+      "mirror_dests": [],
+      "exclude_extensions": [],
+      "flatten_contents": false,
+      "rule_id": "legacy:e2effe4944f31f272723"
+    },
+    {
+      "dest": "Binaries/Win64",
+      "extensions": [],
+      "folders": [
+        "ue4ss"
+      ],
+      "filenames": [],
+      "loose_only": false,
+      "companion_extensions": [],
+      "flatten": true,
+      "include_siblings": false,
+      "to_prefix": false,
+      "mirror_dests": [],
+      "exclude_extensions": [],
+      "flatten_contents": false,
+      "rule_id": "legacy:2ad5a3e0e2ff0f79150c"
+    },
+    {
+      "dest": "Content/Paks/~mods",
+      "extensions": [
+        ".pak"
+      ],
+      "folders": [],
+      "filenames": [],
+      "loose_only": false,
+      "companion_extensions": [
+        ".ucas",
+        ".utoc"
+      ],
+      "flatten": false,
+      "include_siblings": true,
+      "to_prefix": false,
+      "mirror_dests": [],
+      "exclude_extensions": [],
+      "flatten_contents": false,
+      "rule_id": "legacy:56f7d84269e2c4499c9a"
+    },
+    {
+      "dest": "Binaries/Win64",
+      "extensions": [
+        ".asi"
+      ],
+      "folders": [],
+      "filenames": [],
+      "loose_only": false,
+      "companion_extensions": [
+        ".ini"
+      ],
+      "flatten": false,
+      "include_siblings": false,
+      "to_prefix": false,
+      "mirror_dests": [],
+      "exclude_extensions": [],
+      "flatten_contents": false,
+      "rule_id": "legacy:a8ddb9ecefa0a4a7488d"
+    },
+    {
+      "dest": "Binaries/Win64/ue4ss/Mods",
+      "extensions": [],
+      "folders": [
+        "scripts"
+      ],
+      "filenames": [],
+      "loose_only": false,
+      "companion_extensions": [],
+      "flatten": false,
+      "include_siblings": true,
+      "to_prefix": false,
+      "mirror_dests": [],
+      "exclude_extensions": [],
+      "flatten_contents": false,
+      "rule_id": "legacy:51a1364ff7a2ec2d4f3b"
+    },
+    {
+      "dest": "Binaries/Win64/ue4ss/Mods",
+      "extensions": [],
+      "folders": [],
+      "filenames": [
+        "enabled.txt"
+      ],
+      "loose_only": false,
+      "companion_extensions": [],
+      "flatten": false,
+      "include_siblings": true,
+      "to_prefix": false,
+      "mirror_dests": [],
+      "exclude_extensions": [],
+      "flatten_contents": false,
+      "rule_id": "legacy:f571bfabb6c897614d6d"
+    },
+    {
+      "dest": "Binaries/Win64/ue4ss/Mods",
+      "extensions": [],
+      "folders": [
+        "dlls"
+      ],
+      "filenames": [],
+      "loose_only": false,
+      "companion_extensions": [],
+      "flatten": false,
+      "include_siblings": true,
+      "to_prefix": false,
+      "mirror_dests": [],
+      "exclude_extensions": [],
+      "flatten_contents": false,
+      "rule_id": "legacy:36b84032b1c3bc97518b"
+    },
+    {
+      "dest": "Binaries/Win64/ue4ss/Mods",
+      "extensions": [],
+      "folders": [],
+      "filenames": [
+        "mods.txt"
+      ],
+      "loose_only": false,
+      "companion_extensions": [],
+      "flatten": true,
+      "include_siblings": false,
+      "to_prefix": false,
+      "mirror_dests": [],
+      "exclude_extensions": [],
+      "flatten_contents": false,
+      "rule_id": "legacy:adddac823ba9cc449c0a"
+    }
+  ],
+  "custom_install_rules": [],
+  "restore_whitelist": [],
+  "custom_frameworks": {
+    "UE4SS": "Binaries/Win64/dwmapi.dll"
+  }
+}
